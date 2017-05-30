@@ -75,7 +75,7 @@ _.each({
     
     if(callback){
       var err = null;
-      if(_.isEmpty(returner)) err = new Error(name + ' lookup on [' + args.implode(', ') + '] has no results');
+      if(_.isEmpty(returner)) err = new Error(name + ' lookup on [' + args.join(', ') + '] has no results');
       return callback(err, returner);
     }else return returner;
   };
