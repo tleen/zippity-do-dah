@@ -1,6 +1,6 @@
 {
   "name": "zippity-do-dah",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Zip code data with lookup and utilities",
   "main": "./index",
   "scripts": {
